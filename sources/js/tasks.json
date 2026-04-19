@@ -7,170 +7,170 @@
         },
         {
             "id": "daily_craft_forma",
-            "text": "Crafting (Forma): Start building a new Forma (and collect finished ones).",
+            "text": "제작 (포르마): 새로운 포르마 제작을 시작하세요 (완료된 것은 수령하세요).",
             "icon": "IconBuild.png",
-            "location": "Base of Operations",
-            "terminal": "Foundry"
+            "location": "오퍼레이션 베이스",
+            "terminal": "주조소"
         },
         {
             "id": "daily_craft_other",
-            "text": "Crafting (Other): Craft other daily resources/items using reusable blueprints (check Foundry/companion app).",
+            "text": "제작 (기타): 재사용 가능한 설계도를 사용하여 다른 일일 자원/아이템을 제작하세요 (주조소/모바일 앱 확인).",
             "icon": "IconBuild.png",
-            "location": "Base of Operations",
-            "terminal": "Foundry"
+            "location": "오퍼레이션 베이스",
+            "terminal": "주조소"
         },
         {
             "id": "daily_syndicate_gain",
-            "text": "Faction Syndicates: Gain daily standing cap with your pledged Syndicate(s).",
+            "text": "진영 신디케이트: 맹세한 신디케이트의 일일 평판 상한치까지 평판을 획득하세요.",
             "icon": "ReputationSmall.png",
-            "info": "Gain affinity in any mission to increase faction standing"
+            "info": "아무 미션에서나 숙련도를 획득하여 진영 평판을 높이세요."
         },
         {
             "id": "daily_syndicate_spend",
-            "text": "Faction Syndicates: If maxed on standing, spend it (Relic packs, Vosfor packs, etc.).",
+            "text": "진영 신디케이트: 평판이 최대치라면 소비하세요 (성유물 팩, 보스포르 팩 등).",
             "icon": "ReputationSmall.png",
-            "location": "Base of Operations/Any Relay",
-            "terminal": "Syndicates"
+            "location": "오퍼레이션 베이스/아무 릴레이",
+            "terminal": "신디케이트"
         },
         {
             "id": "daily_world_syndicate_parent",
-            "text": "World Syndicates (Standing)",
+            "text": "월드 신디케이트 (평판)",
             "icon": "ReputationSmall.png",
             "isParent": true,
             "subtasks": [
                 {
                     "id": "daily_world_syndicate_simaris",
-                    "text": "Cephalon Simaris",
+                    "text": "세팔론 시마리스",
                     "icon": "syndicates/IconSimaris.png",
-                    "location": "Any Relay"
+                    "location": "아무 릴레이"
                 },
                 {
                     "id": "daily_world_syndicate_ostron",
-                    "text": "Ostron",
+                    "text": "오스트론",
                     "icon": "syndicates/IconCetusElder.png",
-                    "location": "Cetus, Earth",
-                    "prereq": "Saya's Vigil"
+                    "location": "지구, 시터스",
+                    "prereq": "사야의 기도"
                 },
                 {
                     "id": "daily_world_syndicate_quills",
-                    "text": "The Quills",
+                    "text": "퀴를",
                     "icon": "syndicates/TheQuillsSigil.png",
-                    "location": "Cetus, Earth",
-                    "prereq": "The War Within"
+                    "location": "지구, 시터스",
+                    "prereq": "내면의 전쟁"
                 },
                 {
                     "id": "daily_world_syndicate_solaris",
-                    "text": "Solaris United",
+                    "text": "솔라리스 연합",
                     "icon": "syndicates/SolarisUnited1.png",
-                    "location": "Fortuna, Venus",
-                    "prereq": "Vox Solaris (Quest)"
+                    "location": "금성, 포르투나",
+                    "prereq": "보브 솔라리스 (퀘스트)"
                 },
                 {
                     "id": "daily_world_syndicate_vox",
-                    "text": "Vox Solaris",
+                    "text": "복스 솔라리스",
                     "icon": "syndicates/IconSolaris.png",
-                    "location": "Fortuna, Venus",
-                    "prereq": "The War Within"
+                    "location": "금성, 포르투나",
+                    "prereq": "내면의 전쟁"
                 },
                 {
                     "id": "daily_world_syndicate_ventkids",
-                    "text": "Ventkids",
+                    "text": "벤트키드",
                     "icon": "syndicates/FactionVentKidz.png",
-                    "location": "Fortuna, Venus",
-                    "prereq": "Vox Solaris (Quest)"
+                    "location": "금성, 포르투나",
+                    "prereq": "보브 솔라리스 (퀘스트)"
                 },
                 {
                     "id": "daily_world_syndicate_entrati",
-                    "text": "Entrati",
+                    "text": "엔트라티",
                     "icon": "syndicates/IconEntrati.png",
-                    "location": "Necralisk, Deimos",
-                    "prereq": "Heart of Deimos"
+                    "location": "데이모스, 네크랄리스",
+                    "prereq": "데이모스의 심장"
                 },
                 {
                     "id": "daily_world_syndicate_necraloid",
-                    "text": "Necraloid",
+                    "text": "네크랄로이드",
                     "icon": "syndicates/Loid.png",
-                    "location": "Necralisk, Deimos",
-                    "prereq": "The War Within"
+                    "location": "데이모스, 네크랄리스",
+                    "prereq": "내면의 전쟁"
                 },
                 {
                     "id": "daily_world_syndicate_holdfasts",
-                    "text": "The Holdfasts",
+                    "text": "홀드패스트",
                     "icon": "syndicates/TheHoldfastsIcon.png",
-                    "location": "Chrysalith, Zariman",
-                    "prereq": "Angels of the Zariman"
+                    "location": "자리만, 크리살리스",
+                    "prereq": "자리만의 천사들"
                 },
                 {
                     "id": "daily_world_syndicate_cavia",
-                    "text": "Cavia",
+                    "text": "카비아",
                     "icon": "syndicates/FactionSigilCavia.png",
-                    "location": "Sanctum Anatomica, Deimos",
-                    "prereq": "Whispers in the Walls"
+                    "location": "데이모스, 해부학의 성역",
+                    "prereq": "벽 속의 속삭임"
                 },
                 {
                     "id": "daily_world_syndicate_hex",
-                    "text": "The Hex",
+                    "text": "헥스",
                     "icon": "syndicates/HexIcon.png",
-                    "location": "Höllvania Central Mall",
-                    "prereq": "The Hex (Quest)"
+                    "location": "홀바니아 중앙 쇼핑몰",
+                    "prereq": "헥스 (퀘스트)"
                 }
             ]
         },
         {
             "id": "daily_dark_sector",
-            "text": "Dark Sector Mission (Early Game): Complete one Dark Sector mission first for double credits (if needed & pre-Index).",
+            "text": "다크 섹터 미션 (초반): 매일 첫 다크 섹터 미션을 완료하여 크레딧 보너스를 받으세요 (인덱스 해금 전 권장).",
             "icon": "IconInfested.png",
-            "location": "Base of Operations",
-            "terminal": "Navigation"
+            "location": "오퍼레이션 베이스",
+            "terminal": "성계지도"
         },
         {
             "id": "daily_sortie",
-            "text": "Sortie: Complete the 3 daily Sortie missions.",
+            "text": "출격: 3개의 일일 출격 미션을 완료하세요.",
             "icon": "Sortie.png",
-            "location": "Base of Operations",
-            "terminal": "Navigation",
-            "prereq": "The War Within"
+            "location": "오퍼레이션 베이스",
+            "terminal": "성계지도",
+            "prereq": "내면의 전쟁"
         },
         {
             "id": "daily_focus",
-            "text": "Focus: Max out daily Focus gain (e.g., via Sanctuary Onslaught).",
+            "text": "포커스: 일일 포커스 획득 상한치를 채우세요 (예: 성소 맹습).",
             "icon": "FocusLensFocus.png",
-            "prereq": "The Second Dream"
+            "prereq": "두 번째 꿈"
         },
         {
             "id": "daily_steel_path",
-            "text": "Steel Path Incursions: Complete daily Steel Path missions for Steel Essence.",
+            "text": "강철의 길 침공: 강철의 정수를 얻기 위해 일일 강철의 길 미션을 완료하세요.",
             "icon": "SteelEssenceIcon.png",
-            "prereq": "Steel Path unlocked"
+            "prereq": "강철의 길 해금됨"
         },
         {
             "id": "daily_vendors",
-            "text": "Vendors",
+            "text": "상인",
             "icon": "Market.png",
             "isParent": true,
             "subtasks": [
                 {
                     "id": "daily_acrithis",
-                    "text": "Acrithis: Check daily Arcane and Captura offering.",
+                    "text": "아크리티스: 일일 아케인 및 캡처라 상품을 확인하세요.",
                     "icon": "Acrithis.png",
-                    "location": "Duviri/Dormizone",
-                    "npc": "Acrithis"
+                    "location": "두비리/도르미존",
+                    "npc": "아크리티스"
                 },
                 {
                     "id": "daily_ticker_crew",
-                    "text": "Ticker: Check available railjack crew to hire.",
+                    "text": "티커: 고용 가능한 레일잭 승무원을 확인하세요.",
                     "icon": "IconCommand.png",
-                    "location": "Fortuna, Venus",
-                    "npc": "Ticker",
-                    "prereq": "Rising Tide & Command Intrinsics 1"
+                    "location": "금성, 포르투나",
+                    "npc": "티커",
+                    "prereq": "밀물 (퀘스트) 및 지휘 인트린직 1랭크"
                 },
                 {
                     "id": "daily_marie",
-                    "text": "Marie: Purchase Operator and amp mods.",
+                    "text": "마리: 오퍼레이터 및 앰프 모드를 구매하세요.",
                     "icon": "Wisp.png",
-                    "location": "La Cathédrale (Sanctum Anatomica, Deimos)",
-                    "npc": "Marie",
-                    "prereq": "The Old Peace"
+                    "location": "라 카테드랄 (데이모스, 해부학의 성역)",
+                    "npc": "마리",
+                    "prereq": "오래된 평화"
                 }
             ]
         }
@@ -178,179 +178,179 @@
     "weekly": [
         {
             "id": "weekly_nightwave_complete",
-            "text": "Nightwave: Complete relevant weekly Nightwave missions.",
+            "text": "나이트웨이브: 주간 나이트웨이브 행동을 완료하세요.",
             "icon": "NightwaveIconSimple.png"
         },
         {
             "id": "weekly_nightwave_spend",
-            "text": "Nightwave (Spend): Spend Nightwave credits if needed (Aura mods, Catalysts/Reactors, etc.).",
+            "text": "나이트웨이브 (소비): 필요 시 나이트웨이브 크레딧을 사용하세요 (오라 모드, 카탈리스트/리액터 등).",
             "icon": "NightwaveIconSimple.png"
         },
         {
             "id": "weekly_ayatan",
-            "text": "Ayatan Treasure Hunt: Complete Maroo's weekly mission for an Ayatan Sculpture",
+            "text": "아야탄 보물 사냥: 아야탄 조각 획득을 위해 마루의 주간 미션을 완료하세요.",
             "icon": "Maroo.png",
-            "location": "Maroo's Bazaar, Mars",
-            "npc": "Maroo"
+            "location": "화성, 마루의 암시장",
+            "npc": "마루"
         },
         {
             "id": "weekly_clem",
-            "text": "Help Clem: Help Clem with his weekly survival, or he will die.",
+            "text": "클렘 돕기: 클렘의 주간 생존 미션을 도와주세요.",
             "icon": "HelpClem_.png",
-            "location": "Any Relay",
-            "npc": "Darvo",
-            "prereq": "A Man of Few Words"
+            "location": "아무 릴레이",
+            "npc": "다르보",
+            "prereq": "말이 없는 자"
         },
         {
             "id": "weekly_kahl_garrison",
-            "text": "Break Narmer: Complete Kahl's weekly mission for Stock.",
+            "text": "나르메르 파괴: 스톡 획득을 위해 칼의 주간 미션을 완료하세요.",
             "icon": "GarrisonIcon.png",
-            "location": "Drifter's Camp, Earth",
-            "npc": "Kahl",
-            "prereq": "Veilbreaker"
+            "location": "지구, 드리프터 캠프",
+            "npc": "칼",
+            "prereq": "베일브레이커"
         },
         {
             "id": "weekly_archon_hunt",
-            "text": "Archon Hunt: Complete the weekly Archon Hunt for a guaranteed Archon Shard.",
+            "text": "집정관 사냥: 확정적인 집정관 샤드 획득을 위해 주간 집정관 사냥을 완료하세요.",
             "icon": "IconNarmer.png",
-            "location": "Base of Operations",
-            "terminal": "Navigation",
-            "prereq": "The New War"
+            "location": "오퍼레이션 베이스",
+            "terminal": "성계지도",
+            "prereq": "새로운 전쟁"
         },
         {
             "id": "weekly_duviri_circuit",
-            "text": "Duviri Circuit (Normal): Check weekly Warframe options & run Circuit if desired.",
+            "text": "두비리 순환로 (일반): 주간 워프레임 선택지를 확인하고 순환로를 진행하세요.",
             "icon": "IconDuviriCategory256.png",
-            "location": "Base of Operations/Dormizone",
-            "terminal": "Navigation",
-            "prereq": "The Duviri Paradox"
+            "location": "오퍼레이션 베이스/도르미존",
+            "terminal": "성계지도",
+            "prereq": "두비리의 역설"
         },
         {
             "id": "weekly_duviri_circuit_sp",
-            "text": "Duviri Circuit (Steel Path): Check weekly Incarnon Adapters & run Circuit if desired.",
+            "text": "두비리 순환로 (강철의 길): 주간 인카논 어댑터를 확인하고 순환로를 진행하세요.",
             "icon": "IconDuviriCategory256.png",
-            "location": "Base of Operations/Dormizone",
-            "terminal": "Navigation",
-            "prereq": "Steel Path unlocked & The Duviri Paradox"
+            "location": "오퍼레이션 베이스/도르미존",
+            "terminal": "성계지도",
+            "prereq": "강철의 길 해금됨 및 두비리의 역설"
         },
         {
             "id": "weekly_search_pulses",
-            "text": "Search Pulses: Use 5 weekly search pulses on Netracells and Archimedeas.",
+            "text": "수색 펄스: 네트라셀 및 아르키메디아에 주간 수색 펄스 5개를 사용하세요.",
             "icon": "MagnifyingGlassIcon.png",
             "isParent": true,
             "subtasks": [
                 {
                     "id": "weekly_netracells",
-                    "text": "Netracells: Complete up to 5 weekly Netracell missions for Archon Shard chances.",
+                    "text": "네트라셀: 집정관 샤드 획득 기회를 위해 주간 최대 5회의 네트라셀 미션을 완료하세요.",
                     "icon": "NetraRequiemIcon.png",
-                    "location": "Sanctum Anatomica, Deimos",
-                    "npc": "Tagfer",
-                    "prereq": "Whispers in the Walls",
-                    "info": "Costs 1 Search Pulse per successful mission"
+                    "location": "데이모스, 해부학의 성역",
+                    "npc": "태그페어",
+                    "prereq": "벽 속의 속삭임",
+                    "info": "성공한 미션당 수색 펄스 1개가 소모됩니다."
                 },
                 {
                     "id": "weekly_eda",
-                    "text": "Elite Deep Archimedea: Attempt weekly Elite Deep Archimedea for high Archon Shard chances (very endgame)",
+                    "text": "엘리트 딥 아르키메디아: 높은 집정관 샤드 획득 기회를 위해 주간 엘리트 딥 아르키메디아에 도전하세요 (매우 고인물용).",
                     "icon": "Necraloid.png",
-                    "location": "Sanctum Anatomica, Deimos",
-                    "npc": "Necraloid",
-                    "prereq": "Rank 5 Cavia",
-                    "info": "Costs 2 Search Pulses to unlock for the week"
+                    "location": "데이모스, 해부학의 성역",
+                    "npc": "네크랄로이드",
+                    "prereq": "카비아 5랭크",
+                    "info": "해당 주간 해금을 위해 수색 펄스 2개가 소모됩니다."
                 },
                 {
                     "id": "weekly_eta",
-                    "text": "Elite Temporal Archimedea: Attempt weekly Elite Temporal Archimedea for high Archon Shard chances (very endgame)",
+                    "text": "엘리트 템포럴 아르키메디아: 높은 집정관 샤드 획득 기회를 위해 주간 엘리트 템포럴 아르키메디아에 도전하세요 (매우 고인물용).",
                     "icon": "Kaya_.png",
-                    "location": "Höllvania Central Mall",
-                    "npc": "Kaya",
-                    "prereq": "Rank 5 The Hex",
-                    "info": "Costs 2 Search Pulses to unlock for the week"
+                    "location": "홀바니아 중앙 쇼핑몰",
+                    "npc": "카야",
+                    "prereq": "헥스 5랭크",
+                    "info": "해당 주간 해금을 위해 수색 펄스 2개가 소모됩니다."
                 }
             ]
         },
         {
             "id": "weekly_calendar",
-            "text": "1999 Calendar: Complete weekly Calendar tasks.",
+            "text": "1999 캘린더: 주간 캘린더 과제를 완료하세요.",
             "icon": "Computer.png",
-            "location": "Base of Operations",
+            "location": "오퍼레이션 베이스",
             "terminal": "POM-2 PC",
-            "prereq": "The Hex"
+            "prereq": "헥스"
         },
         {
             "id": "weekly_invigorations",
-            "text": "Helminth: Use weekly Invigorations.",
+            "text": "헬민스: 주간 보강(인비고레이션)을 사용하세요.",
             "icon": "IconHelminth.png",
-            "location": "Base of Operations",
-            "npc": "Helminth",
-            "prereq": "Rank 5 Entrati"
+            "location": "오퍼레이션 베이스",
+            "npc": "헬민스",
+            "prereq": "엔트라티 5랭크"
         },
         {
             "id": "weekly_descendia",
-            "text": "The Descendia (Normal): Weekly Tower gamemode for various resources.",
+            "text": "더 디센디아 (일반): 다양한 자원을 위해 주간 타워 모드를 진행하세요.",
             "icon": "Heat_d.png",
-            "location": "Dark Refractory (Base of Operations)",
-            "terminal": "Navigation"
+            "location": "다크 리프랙토리 (오퍼레이션 베이스)",
+            "terminal": "성계지도"
         },
         {
             "id": "weekly_descendia_sp",
-            "text": "The Descendia (Steel Path): Weekly Tower gamemode for various resources.",
+            "text": "더 디센디아 (강철의 길): 다양한 자원을 위해 주간 타워 모드를 진행하세요.",
             "icon": "Heat_d.png",
-            "location": "Dark Refractory (Base of Operations)",
-            "terminal": "Navigation"
+            "location": "다크 리프랙토리 (오퍼레이션 베이스)",
+            "terminal": "성계지도"
         },
         {
             "id": "weekly_vendors",
-            "text": "Vendors",
+            "text": "상인",
             "icon": "Market.png",
             "isParent": true,
             "subtasks": [
                 {
                     "id": "weekly_iron_wake",
-                    "text": "Paladino: Trade Riven Slivers.",
+                    "text": "팔라디노: 리븐 조각을 교환하세요.",
                     "icon": "IconOmegaMod256.png",
-                    "location": "Iron Wake, Earth",
-                    "npc": "Paladino",
-                    "prereq": "The Chains of Harrow"
+                    "location": "지구, 아이언 웨이크",
+                    "npc": "팔라디노",
+                    "prereq": "해로우의 사슬"
                 },
                 {
                     "id": "weekly_yonta",
-                    "text": "Archimedian Yonta: Buy weekly Kuva with Voidplumes.",
+                    "text": "아르키메디안 욘타: 보이드 플룸으로 주간 쿠바를 구매하세요.",
                     "icon": "Yonta.png",
-                    "location": "Chrysalith, Zariman",
-                    "npc": "Yonta",
-                    "prereq": "Angels of the Zariman"
+                    "location": "자리만, 크리살리스",
+                    "npc": "욘타",
+                    "prereq": "자리만의 천사들"
                 },
                 {
                     "id": "weekly_acridies",
-                    "text": "Acrithis: Check wares and spend Pathos Clamps if desired (Catalysts/Reactors recommended if needed).",
+                    "text": "아크리티스: 상품을 확인하고 필요 시 파토스 클램프를 소비하세요 (카탈리스트/리액터 권장).",
                     "icon": "Acrithis.png",
-                    "location": "Duviri/Dormizone",
-                    "npc": "Acrithis",
-                    "prereq": "The Duviri Paradox"
+                    "location": "두비리/도르미존",
+                    "npc": "아크리티스",
+                    "prereq": "두비리의 역설"
                 },
                 {
                     "id": "weekly_teshin",
-                    "text": "Teshin (Steel Path): Check Teshin's Steel Essence shop (especially for Umbra Forma rotation every 8 weeks).",
+                    "text": "테신 (강철의 길): 테신의 강철의 정수 상점을 확인하세요 (8주마다 돌아오는 움브라 포르마 주의).",
                     "icon": "SteelEssenceIcon.png",
-                    "location": "Any Relay",
-                    "npc": "Teshin",
-                    "prereq": "Steel Path unlocked"
+                    "location": "아무 릴레이",
+                    "npc": "테신",
+                    "prereq": "강철의 길 해금됨"
                 },
                 {
                     "id": "weekly_bird3",
-                    "text": "Bird 3: Buy the weekly Archon Shard for 30k Cavia Standing.",
+                    "text": "버드 3: 카비아 평판 30,000으로 주간 집정관 샤드를 구매하세요.",
                     "icon": "Bird3.png",
-                    "location": "Sanctum Anatomica, Deimos",
-                    "npc": "Bird 3",
-                    "prereq": "Rank 5 Cavia"
+                    "location": "데이모스, 해부학의 성역",
+                    "npc": "버드 3",
+                    "prereq": "카비아 5랭크"
                 },
                 {
                     "id": "weekly_nightcap",
-                    "text": "Nightcap: Trade Fergolyte for Kuva and Ayatan Sculpture.",
+                    "text": "나이트캡: 퍼골라이트를 쿠바 및 아야탄 조각으로 교환하세요.",
                     "icon": "MysteryShroom256_d.png",
-                    "location": "Fortuna, Venus",
-                    "npc": "Nightcap",
-                    "prereq": "The New War"
+                    "location": "금성, 포르투나",
+                    "npc": "나이트캡",
+                    "prereq": "새로운 전쟁"
                 }
             ]
         }
@@ -358,36 +358,36 @@
     "other": [
         {
             "id": "other_baro",
-            "text": "Baro Ki'Teer: Check Baro Ki'Teer's inventory and purchase desired items with Ducats (trade Prime parts for Ducats). <span id=\"baro-countdown-timer\" class=\"baro-countdown\">(Loading...)</span>",
+            "text": "바로 키'티어: 바로 키'티어의 인벤토리를 확인하고 두캇으로 아이템을 구매하세요 (프라임 부품을 두캇으로 교환). <span id=\"baro-countdown-timer\" class=\"baro-countdown\">(로딩 중...)</span>",
             "icon": "IconPrimeParts.png",
-            "location": "Relay with Symbol",
-            "npc": "Baro Ki'Teer"
+            "location": "기호가 표시된 릴레이",
+            "npc": "바로 키'티어"
         },
         {
             "id": "other_grandmother_tokens",
-            "text": "Mend the Family: Purchase Family Tokens from Grandmother <span id=\"grandmother_tokens-countdown-timer\" class=\"eight-hour-countdown\">(Loading...)</span>",
+            "text": "가족 치유: 할머니에게서 가족 토큰을 구매하세요 <span id=\"grandmother_tokens-countdown-timer\" class=\"eight-hour-countdown\">(로딩 중...)</span>",
             "icon": "syndicates/IconEntrati.png",
             "isEightHourTask": true,
-            "location": "Necralisk, Deimos",
-            "prereq": "Heart of Deimos"
+            "location": "데이모스, 네크랄리스",
+            "prereq": "데이모스의 심장"
         },
         {
             "id": "other_yonta_voidplumes",
-            "text": "Trade for Voidplumes <span id=\"yonta_voidplumes-countdown-timer\" class=\"eight-hour-countdown\">(Loading...)</span>",
+            "text": "보이드 플룸 교환 <span id=\"yonta_voidplumes-countdown-timer\" class=\"eight-hour-countdown\">(로딩 중...)</span>",
             "icon": "Yonta.png",
             "isEightHourTask": true,
-            "location": "Chrysalith, Zariman",
-            "npc": "Yonta",
-            "prereq": "Angels of the Zariman"
+            "location": "자리만, 크리살리스",
+            "npc": "욘타",
+            "prereq": "자리만의 천사들"
         },
         {
             "id": "other_loid_voca",
-            "text": "Trade for Voca <span id=\"loid_voca-countdown-timer\" class=\"eight-hour-countdown\">(Loading...)</span>",
+            "text": "보카 교환 <span id=\"loid_voca-countdown-timer\" class=\"eight-hour-countdown\">(로딩 중...)</span>",
             "icon": "MiniMapCaviaVendor_.png",
             "isEightHourTask": true,
-            "location": "Sanctum Anatomica, Deimos",
-            "npc": "Loid",
-            "prereq": "Whispers in the Walls"
+            "location": "데이모스, 해부학의 성역",
+            "npc": "로이드",
+            "prereq": "벽 속의 속삭임"
         }
     ]
 }
