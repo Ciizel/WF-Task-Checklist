@@ -203,7 +203,7 @@ function formatTimestamp(timestamp) {
 
 function updateLastSavedDisplay(timestamp) {
     if (lastSavedTimestampElement) {
-        lastSavedTimestampElement.textContent = `Last saved: ${formatTimestamp(timestamp)}`;
+        lastSavedTimestampElement.textContent = `저장됨: ${formatTimestamp(timestamp)}`;
     } else {
          console.error("lastSavedTimestampElement not found");
     }
@@ -379,7 +379,7 @@ function displayEightHourTaskCountdown(taskElementId, countdownSpanId) {
     const nextResetTimestamp = getNextEightHourResetUTC();
     const now = new Date().getTime();
     const diff = nextResetTimestamp - now;
-    countdownSpan.textContent = `(Resets in ${formatCountdown(diff)})`;
+    countdownSpan.textContent = `(초기화: ${formatCountdown(diff)})`;
 }
 
 function displayLocalResetTimes() {
@@ -389,7 +389,7 @@ function displayLocalResetTimes() {
         const nextDailyResetTimestamp = getNextDailyMidnightUTC();
         const dailyDiff = nextDailyResetTimestamp - now;
         if (dailyResetTimeElement) {
-            dailyResetTimeElement.textContent = `(Resets in ${formatCountdown(dailyDiff)})`;
+            dailyResetTimeElement.textContent = `(초기화: ${formatCountdown(dailyDiff)})`;
         }
 
         let nextWeeklyResetTimestamp = getMostRecentMondayMidnightUTC();
@@ -398,7 +398,7 @@ function displayLocalResetTimes() {
         }
         const weeklyDiff = nextWeeklyResetTimestamp - now;
         if (weeklyResetTimeElement) {
-            weeklyResetTimeElement.textContent = `(Resets in ${formatCountdown(weeklyDiff)})`;
+            weeklyResetTimeElement.textContent = `(초기화: ${formatCountdown(weeklyDiff)})`;
         }
 
         displayBaroCountdown();
