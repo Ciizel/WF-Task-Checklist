@@ -139,7 +139,7 @@
         },
         {
             "id": "daily_steel_path",
-            "text": "강철의 길 침공: 강철의 정수를 얻기 위해 일일 강철의 길 미션 완료",
+            "text": "강철의 길 침공: 일일 강철의 길 미션 완료. (강철의 정수)",
             "icon": "SteelEssenceIcon.png",
             "prereq": "강철의 길 해금됨"
         },
