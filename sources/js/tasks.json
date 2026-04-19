@@ -2,7 +2,7 @@
     "daily": [
         {
             "id": "daily_login",
-            "text": "Log in: Collect the daily login reward.",
+            "text": "로그인: 매일 로그인 보상을 받으세요.",
             "icon": "LotusFlower.png"
         },
         {
